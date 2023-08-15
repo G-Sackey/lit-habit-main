@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "64059162515",
+    "project_id": "lit-habit-f38b6",
+    "storage_bucket": "lit-habit-f38b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64059162515:android:f9271246045b06aaf9f266",
+        "android_client_info": {
+          "package_name": "com.example.lithabit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64059162515-s4agksmdnm6m3u42qcs9firqao7cqn1v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChDpFvjPmwXhv5Wcyd956pAajZURBj2Pg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64059162515-s4agksmdnm6m3u42qcs9firqao7cqn1v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
