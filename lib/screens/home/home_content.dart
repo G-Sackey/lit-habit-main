@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lithabit/pages/chat.dart';
 import 'package:lithabit/screens/home/sections/all_purchased_books.dart';
 
 import '../../widgets/keep_reading_section.dart';
@@ -9,7 +10,7 @@ class HomeContent extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const SingleChildScrollView(
+    return  const SingleChildScrollView(
         child: Padding(
           padding: EdgeInsets.all(16.0),
           child: Column(
@@ -17,7 +18,7 @@ class HomeContent extends StatelessWidget {
               LastOpenedBook(),
               KeepReadingSection(),
               AllPurchasedBooks(),
-            ],
+            ]
           ),
         ),
       );

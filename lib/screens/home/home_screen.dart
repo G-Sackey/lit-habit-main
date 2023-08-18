@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:lithabit/pages/chat.dart';
 import 'package:lithabit/screens/home/home_content.dart';
 import 'package:lithabit/screens/home/sections/all_purchased_books.dart';
 import 'package:lithabit/widgets/keep_reading_section.dart';
@@ -71,6 +72,15 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ),
       ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
+      floatingActionButton: FloatingActionButton(onPressed: () {
+        Navigator.push(context, 
+        MaterialPageRoute(builder: (context)=> const ChatPage())
+        );
+      },
+      backgroundColor: Colors.blue,
+      child: Icon(Icons.message),
+      )
     );
   }
 }

@@ -14,7 +14,7 @@ final ThemeData customTheme = ThemeData(
       elevation: 0,
       backgroundColor: Colors.white,
       iconTheme: const IconThemeData(color: Colors.black),
-      titleTextStyle: GoogleFonts.robotoMono(
+      titleTextStyle: GoogleFonts.openSans(
         letterSpacing: 1.3,
         fontSize: 20,
         color: Colors.black,
@@ -26,15 +26,15 @@ final ThemeData customTheme = ThemeData(
     linearTrackColor: Colors.pink[100],
   ),
   textTheme: TextTheme(
-    titleSmall: GoogleFonts.robotoMono(
+    titleSmall: GoogleFonts.openSans(
       fontSize: 14,
       color: Colors.black,
     ),
-    titleMedium: GoogleFonts.robotoMono(
+    titleMedium: GoogleFonts.openSans(
       fontSize: 18,
       color: Colors.black,
     ),
-    titleLarge: GoogleFonts.robotoMono(
+    titleLarge: GoogleFonts.openSans(
       fontSize: 22,
       color: Colors.black,
     ),
@@ -44,11 +44,11 @@ final ThemeData customTheme = ThemeData(
     bodySmall: GoogleFonts.gildaDisplay(fontSize: 22),
     bodyMedium: GoogleFonts.gildaDisplay(fontSize: 26),
     bodyLarge: GoogleFonts.gildaDisplay(fontSize: 30),
-    headlineLarge: GoogleFonts.robotoMono(
-        fontSize: 30, color: Colors.black, fontWeight: FontWeight.w700),
-    headlineMedium: GoogleFonts.robotoMono(
+    headlineLarge: GoogleFonts.openSans(
+        fontSize: 30, color: const Color.fromRGBO(0, 0, 0, 1), fontWeight: FontWeight.w700),
+    headlineMedium: GoogleFonts.openSans(
         fontSize: 24, color: Colors.black, fontWeight: FontWeight.w700),
-    headlineSmall: GoogleFonts.robotoMono(
+    headlineSmall: GoogleFonts.openSans(
         fontSize: 14, color: Colors.black38, fontWeight: FontWeight.w700),
   ),
   iconTheme: const IconThemeData(color: Colors.pink),
