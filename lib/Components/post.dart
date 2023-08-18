@@ -78,10 +78,14 @@ class _PostState extends State<Post> {
           const SizedBox(width: 20,),
          Column(
             crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(widget.user, style: TextStyle(fontSize: 12, color: Colors.grey[500],),),
-               const SizedBox(height: 10,),
-              Text(widget.message, style: const TextStyle(fontSize: 15, fontWeight: FontWeight.bold),),
+            children:[
+              Expanded(
+                child: Text(widget.user, style: TextStyle(fontSize: 12, color: Colors.grey[500],),),
+                 ),
+              const SizedBox(height: 10,),
+              Expanded(
+                child: Text(widget.message, style: const TextStyle(fontSize: 15, fontWeight: FontWeight.bold),),
+                ) 
             ],
           )
           ]
