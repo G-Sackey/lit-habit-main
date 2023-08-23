@@ -14,7 +14,7 @@ class _ScreensWrapperState extends State<ScreensWrapper> {
   int _currentIndex = 0;
 
   final List<Widget> _pages = [
-    HomeScreen(),
+    const HomeScreen(),
     const MarketScreen(),
     const ProfileScreen(),
   ];

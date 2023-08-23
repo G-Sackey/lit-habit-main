@@ -56,8 +56,8 @@ class _PostState extends State<Post> {
         color: Colors.white,
         borderRadius: BorderRadius.circular(25)
       ),
-      margin: const EdgeInsets.only(top: 25, left: 25, right: 25),
-      padding: const EdgeInsets.all(25),
+      margin: const EdgeInsets.only(top: 15, left: 15, right: 15),
+      padding: const EdgeInsets.all(15),
       child: Row(
         children: [
           Column(
@@ -70,24 +70,27 @@ class _PostState extends State<Post> {
 
               //like count
               Text(widget.likes.length.toString(),
-              style: TextStyle(color: Colors.grey, fontSize: 12),
+              style: const TextStyle(color: Colors.grey, fontSize: 12),
               )
             ],
           ),
 
           const SizedBox(width: 20,),
-         Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children:[
-              Expanded(
-                child: Text(widget.user, style: TextStyle(fontSize: 12, color: Colors.grey[500],),),
-                 ),
-              const SizedBox(height: 10,),
-              Expanded(
-                child: Text(widget.message, style: const TextStyle(fontSize: 15, fontWeight: FontWeight.bold),),
-                ) 
-            ],
-          )
+         SizedBox(
+          height: 100,
+          width: 160,
+           child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                Text(
+                  widget.user,
+                 style: TextStyle(fontSize: 12, color: Colors.grey[500],),),
+                 const SizedBox(height: 10,),
+                Text(widget.message, style: const TextStyle(fontSize: 15, fontWeight: FontWeight.bold),),
+              ],
+            ),
+         )
           ]
       )
       );

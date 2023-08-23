@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:lithabit/pages/chat.dart';
 import 'package:lithabit/screens/home/sections/all_purchased_books.dart';
 
 import '../../widgets/keep_reading_section.dart';
